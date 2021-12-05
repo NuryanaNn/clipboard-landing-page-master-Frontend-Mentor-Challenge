@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.header{
+    text-align: center;
+}
+
+.headerText{
+    margin-top: 40px;
+}
+
+.headerText h2{
+    margin-bottom: 15px;
+    color: #4b545b;
+}
+
+.headerText p{
+    max-width: 500px;
+    color: #a9adae;
+}
+
+.header ul{
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.header ul li:nth-child(1), .clip ul li:nth-child(1){
+    background:#26bba5;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.header ul li:nth-child(2), .clip ul li:nth-child(2){
+    margin-left: 30px;
+    background: #6174ff;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.header ul li a, .clip ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.test{
+    margin-top: 70px;
+}
+
+.test h3{
+    margin-bottom: 20px;
+    color: #4b545b;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product img{
+    width: 600px;
+    height: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.features ul{
+    list-style: none;
+    margin-left: 100px;
+}
+
+.features ul li h3{
+    margin-top: 50px;
+    color: #4b545b;
+}
+
+.features li p{
+    max-width: 300px;
+    margin-top: -15px;
+    color: #a9adae;
+    margin-left: 80px;
+}
+
+.product2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product2 h1{
+    color: #4b545b;
+}
+
+.product2 p{
+    max-width: 500px;
+    color: #a9adae;
+    margin-top: 10px;
+}
+
+.step{
+    text-align: center;
+}
+
+.step h1{
+    color: #4b545b;
+}
+
+.step p{
+    color: #a9adae;
+}
+
+.step2 ul{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.step2 ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.step2 h4{
+    color: #4b545b;
+}
+
+.step2 ul li {
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.step2 ul li p{
+    max-width: 350px;
+    text-align: center;
+    color: #a9adae;
+}
+
+
+.partner ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.partner ul li{
+    margin-top: 60px;
+    margin-left:100px;
+}
+
+.clip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.clip h3{
+    margin-bottom: 15px;
+    color: #4b545b;
+    font-size: 1.7em;
+}
+
+.clip p{
+    color: #a9adae;
+    max-width: 700px;
+    text-align: center;
+}
+
+.partner ul li{
+    margin-right: 80px;
+}
+
+.clip ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.clip ul li {
+    margin-right: 30px;
+}
+
+
+.footer{
+    background: #f5f6f8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer ul li:nth-child(1){
+    margin-left: 0px;
+}
+
+.footer ul li:nth-child(2){
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.footer ul li{
+    margin-right: 60px;
+}
+
+.footer ul li:nth-child(5){
+    margin-left: 0px;
+}
+
+
+
+@media(min-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: url('images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+    }
+    
+    .header{
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .headerText{
+        margin-top: 40px;
+    }
+    
+    .headerText h2{
+        margin-bottom: 15px;
+        color: #4b545b;
+    }
+    
+    .headerText p{
+        max-width: 500px;
+        color: #a9adae;
+    }
+    
+    .header ul{
+        margin-top: 25px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .header ul li:nth-child(1){
+        background:#26bba5;
+        height: 40px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    .header ul li:nth-child(2){
+        margin-left: 30px;
+        background: #6174ff;
+        height: 40px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 40px 40px 40px 40px;
+    }
+    
+    .header ul li a{
+        text-decoration: none;
+        color:#fff;
+    }
+    
+    .test{
+        margin-top: 70px;
+    }
+    
+    .test h3{
+        margin-bottom: 20px;
+        color: #4b545b;
+    }
+    
+    .product{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .product img{
+        width: 600px;
+        height: 400px;
+        margin-left: -350px;
+        margin-right: 100px;
+    }
+    
+    .features ul{
+        list-style: none;
+    }
+    
+    .features ul li h3{
+        margin-top: 50px;
+        color: #4b545b;
+    }
+    
+    .features li p{
+        max-width: 300px;
+        margin-top: -15px;
+        color: #a9adae;
+        margin-left: 0px;
+    }
+    
+    .product2{
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .product2 p{
+        max-width: 500px;
+    }
+
+    .step{
+        text-align: center;
+    }
+    
+    .step h1{
+        color: #4b545b;
+    }
+    
+    .step p{
+        color: #a9adae;
+    }
+    
+    .step2 ul{
+        list-style: none;
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .step2 h4{
+        color: #4b545b;
+    }
+    
+    .step2 ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partner ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top: 100px;
+    }
+    
+    .partner ul li{
+        margin-top: 20px;
+        margin-left:0px;
+    }
+    .step2 ul li {
+        margin-left: 20px;
+    }
+    
+    .step2 ul li p{
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .footer{
+        background: #f5f6f8;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    
+    .footer ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin-left: -400px;
+    }
+    
+    .footer ul li:nth-child(1){
+        margin-left: 400px;
+    }
+    
+    .footer ul li:nth-child(2){
+        margin-top: 0px;
+    }
+
+    .footer ul li:nth-child(4){
+        margin-top: -30px;
+    }
+    
+    .footer ul li{
+        margin-right: 60px;
+    }
+
+    .footer ul li:nth-child(5){
+        margin-left: 100px;
+    }
+    
+}
+
+
+
